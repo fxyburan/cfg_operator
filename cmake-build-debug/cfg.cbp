@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cfg"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cfg">
+				<Option output="/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug/cfg" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug/Makefile&quot;  VERBOSE=1 cfg"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cfg/fast">
+				<Option output="/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug/cfg" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug/Makefile&quot;  VERBOSE=1 cfg/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vontroy/vontroy/code/llvm/cfg_operator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/vontroy/vontroy/code/llvm/cfg_operator/header/basic_counter.h">
+			<Option target="cfg"/>
+		</Unit>
+		<Unit filename="/home/vontroy/vontroy/code/llvm/cfg_operator/header/cfg_graph.h">
+			<Option target="cfg"/>
+		</Unit>
+		<Unit filename="/home/vontroy/vontroy/code/llvm/cfg_operator/header/graph_edge.h">
+			<Option target="cfg"/>
+		</Unit>
+		<Unit filename="/home/vontroy/vontroy/code/llvm/cfg_operator/header/graph_node.h">
+			<Option target="cfg"/>
+		</Unit>
+		<Unit filename="/home/vontroy/vontroy/code/llvm/cfg_operator/header/utils.cpp">
+			<Option target="cfg"/>
+		</Unit>
+		<Unit filename="/home/vontroy/vontroy/code/llvm/cfg_operator/header/utils.h">
+			<Option target="cfg"/>
+		</Unit>
+		<Unit filename="/home/vontroy/vontroy/code/llvm/cfg_operator/source/basic_counter.cpp">
+			<Option target="cfg"/>
+		</Unit>
+		<Unit filename="/home/vontroy/vontroy/code/llvm/cfg_operator/source/cfg_graph.cpp">
+			<Option target="cfg"/>
+		</Unit>
+		<Unit filename="/home/vontroy/vontroy/code/llvm/cfg_operator/source/graph_edge.cpp">
+			<Option target="cfg"/>
+		</Unit>
+		<Unit filename="/home/vontroy/vontroy/code/llvm/cfg_operator/source/graph_node.cpp">
+			<Option target="cfg"/>
+		</Unit>
+		<Unit filename="/home/vontroy/vontroy/code/llvm/cfg_operator/source/main.cpp">
+			<Option target="cfg"/>
+		</Unit>
+		<Unit filename="/home/vontroy/vontroy/code/llvm/cfg_operator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
